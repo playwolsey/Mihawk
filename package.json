@@ -1,0 +1,45 @@
+{
+    "name": "Mihawk",
+    "description": "Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js.",
+    "version": "0.0.1",
+    "private": false,
+    "author": "playwolsey",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/playwolsey/Mihawk.git"
+    },
+    "engines": {
+        "node": "0.12.4",
+        "npm": "2.10.1"
+    },
+    "dependencies": {
+        "async": "latest",
+        "body-parser": "latest",
+        "cookie-parser": "latest",
+        "express": "latest",
+        "express.io": "*",
+        "errorhandler": "latest",
+        "jade": "latest",
+        "mongoose": "latest",
+        "morgan": "latest",
+        "socket.io": "*",
+        "serve-favicon": "latest"
+    },
+    "devDependencies": {
+        "gulp": "latest",
+        "gulp-concat": "latest",
+        "gulp-uglify": "latest",
+        "gulp-jshint": "latest",
+        "gulp-header": "latest",
+        "gulp-footer": "latest",
+        "gulp-handlebars": "latest",
+        "gulp-open": "latest",
+        "gulp-rename": "latest",
+        "gulp-livereload": "latest",
+        "gulp-less": "latest",
+        "gulp-copy": "latest",
+        "gulp-nodemon": "latest",
+        "markdown": "latest"
+    }
+}
