@@ -1,7 +1,12 @@
 doctype html
+
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+    head
+        block head
+            title= title
+            script(type='text/javascript' src='/vendors/angular/traceur-runtime.js')
+            script(type='text/javascript' src='/vendors/angular/system.js')
+            script(type='text/javascript' src='/vendors/angular/store.js')
+            script(type='text/javascript' src='/vendors/angular/angular2.dev.js')
+    body
+        block content
